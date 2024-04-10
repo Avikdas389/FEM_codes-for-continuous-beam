@@ -15,10 +15,10 @@ l = [float(element) for element in l]
 print("Length of elements are:", l)
 N_element= len(l)
 N_node = N_element+1
-user_in = input("Enter the Modulus of Rigidity separated by spaces: ")
+user_in = input("Enter the Flexural  Rigidity separated by spaces: ")
 EI = user_in.split()
 EI = [float(element) for element in EI]
-print("The Modulus of Rigidity of the elements are as follows:", EI)
+print("The Flexural  Rigidity  of the elements are as follows:", EI)
 
 N_div=17
 T=np.zeros(N_node)
